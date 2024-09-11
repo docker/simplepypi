@@ -1,4 +1,4 @@
-from python:latest
+FROM python:3.11-slim
 
 ADD . .
 RUN python setup.py install
